@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="webesite icon" href="images\icon1.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Gaza Travel</title>
+</head>
+
+<body>
+    <a href="gazatravel.html"><img src="images\logo.png" alt="gazatravel"
+            class="logo"></a>
+    <div class="d-flex " id="containeur">
+        <div id="entet1"><img src="images\telephon.png" alt="telephon"
+                id="telephon">
+            <p id="p1">+212 6 18 38 23 85</p>
+            Monday to Friday: 9:00 AM - 6:00 PM
+        </div>
+        <a href="Sign-in.html" id="link">
+            <div id="entet">Sign-in</div>
+        </a>
+        <a href="Sign-up.html" id="link">
+            <div id="entet">Sign-up</div>
+        </a>
+        <a href="Contact.html" id="link">
+            <div id="entet">Contact</div>
+        </a>
+    </div>
+
+    <div class="offcanvas offcanvas-start text-bg-dark " id="offc">
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title" id="MENU">Menu</h2>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="numero"><img src="images\telephon.png" alt="telephon"
+                    id="telephon">
+                <p id="p1">+212 6 18 38 23 85</p>
+                Monday to Friday: 9:00 AM - 6:00 PM
+            </div>
+            <div class="offcanvass">
+                <a href="Sign-in.html" id="link">Sign-in
+                </a>
+                <a href="Sign-up.html" id="link">Sign-up
+                </a>
+                <a href="Contact.html" id="link">Contact
+                </a>
+            </div>
+        </div>
+    </div>
+    <button type="button" id="offcanvas" class="btn btn-danger" data-bs-toggle="offcanvas" data-bs-target="#offc"><img
+            src="images\menu.png" alt="..." id="imgmenu"></button>
+
+    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal"><img
+            src="images\search.png" id="modimg" alt="jjjjj">Search</button>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Search for the best city</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input class="form-control" list="selectd" id="select" placeholder="number of chamber">
+                    <datalist id="selectd">
+                        <option value="1 chamber">
+                        <option value="2 chamber">
+                        <option value="3 chamber">
+                    </datalist>
+                    <input class="form-control" list="selectd2" id="select" placeholder="number of children">
+                    <datalist id="selectd2">
+                        <option value="1 children">
+                        <option value="2 children">
+                        <option value="3 children">
+                    </datalist>
+                    <input class="form-control" list="selectd3" id="select" placeholder="Number of Hotel Stars">
+                    <datalist id="selectd3">
+                        <option value="3 stars">
+                        <option value="4 stars">
+                        <option value="5 stars">
+                        <option value="6 stars">
+                        <option value="7 stars">
+                    </datalist>
+                    <input class="form-control" type="text" name="citoy" id="citoy"
+                        placeholder="Search for the best city">
+                    <input type="button" value="Search" id="btnin">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images\bg1.jpg" alt="city" class="col-12 mt-4"
+                    id="city">
+            </div>
+            <div class="carousel-item">
+                <img src="images\BALI.jpg" alt="city" class="col-12 mt-4"
+                    id="city">
+            </div>
+            <div class="carousel-item">
+                <img src="images\japan.png" alt="city" class="col-12 mt-4"
+                    id="city">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="pa">
+        <p id="p3">Gaza Travel...11 years of experience<br></p>
+        <p id="p2">
+            Gaza Travel is an agency that manages your trips and events from A to Z <br>
+            Our teams work carefully to provide you with the best possible ofbfer in the shortest possible time.</p>
+    </div>
+    <p class="h">Our best offers of the moment</p>
+    <div class="containeur1 d-flex">
+        <a href="maca.html" id="a">
+            <div id="div"><img src="images\maca.png" alt="maca" id="ph"
+                    loading="lazy">
+                <p id="para">Mecca</p> <img src="images\rating (1).png"
+                    loading="lazy" id="reating" aid="a" lt="reating">
+                <a href="maca.html"><img src="images\right.png" alt="right"
+                        id="right" loading="lazy"></a>
+            </div>
+        </a>
+        <a href="doha.html" id="a">
+            <div id="div"><img src="images\doha.png" alt="doha" id="ph"
+                    loading="lazy">
+                <p id="para">Doha</p> <img src="images\rating (1).png"
+                    id="reating" loading="lazy" alt="reating">
+                <a href="doha.html"><img src="images\right.png" alt="right"
+                        id="right" loading="lazy"></a>
+            </div>
+        </a>
+        <a href="dubai.html" id="a">
+            <div id="div"><img src="images\dubai.png" alt="dubai" id="ph"
+                    loading="lazy">
+                <p id="para">Dubai</p> <img src="images\rating (1).png"
+                    loading="lazy" id="reating" alt="reating">
+                <a href="dubai.html"><img src="images\right.png" alt="right"
+                        id="right" loading="lazy"></a>
+            </div>
+        </a>
+    </div>
+
+    <div class="containeur1 d-flex">
+        <a href="switzerland.html" id="a">
+            <div id="div"><img src="images\suisse.png" alt="maca" id="ph"
+                    loading="lazy">
+                <p id="para">Switzerland</p> <img src="images\rating (1).png"
+                    loading="lazy" id="reating6" alt="reating">
+                <a href="switzerland.html"><img src="images\right.png"
+                        alt="right" id="right2" loading="lazy"></a>
+            </div>
+        </a>
+        <a href="norway.html" id="a">
+            <div id="div"><img src="images\Norvige.png" alt="doha" id="ph"
+                    loading="lazy">
+                <p id="para">Norway</p> <img src="images\rating (1).png"
+                    loading="lazy" id="reating5" alt="reating">
+                <a href="norway.html"><img src="images\right.png" alt="right"
+                        id="right2" loading="lazy"></a>
+            </div>
+        </a>
+        <a href="iceland.html" id="a">
+            <div id="div"><img src="images\iceland.png" alt="dubai" id="ph"
+                    loading="lazy">
+                <p id="para">Iceland</p> <img src="images\rating (1).png"
+                    loading="lazy" id="reating2" alt="reating">
+                <a href="iceland.html"><img src="images\right.png" alt="right"
+                        id="right2" loading="lazy"></a>
+            </div>
+        </a>
+    </div>
+    <div class="containeur1 d-flex">
+        <a href="alquds.html" id="a">
+            <div id="div"><img src="images\kuds.png" alt="maca" id="ph"
+                    loading="lazy">
+                <p id="para">Al-Quds</p> <img src="images\rating (1).png"
+                    loading="lazy" id="reating5" alt="reating">
+                <a href="alquds.html"><img src="images\right.png" alt="right"
+                        id="right3" loading="lazy"></a>
+            </div>
+        </a>
+        <a href="madrid.html" id="a">
+            <div id="div"><img src="images\Madrid.png" alt="doha" id="ph"
+                    loading="lazy">
+                <p id="para">Madrid</p> <img src="images\rating (1).png"
+                    id="reating3" alt="reating">
+                <a href="madrid.html"><img src="images\right.png" alt="right"
+                        id="right3"></a>
+            </div>
+        </a>
+        <a href="newyork.html" id="a">
+            <div id="div"><img src="images\newyork.png" alt="dubai" id="ph"
+                    loading="lazy">
+                <p id="para">NewYork</p> <img src="images\rating (1).png"
+                    id="reating5" alt="reating">
+                <a href="newyork.html"><img src="images\right.png" alt="right"
+                        id="right3" loading="lazy"></a>
+            </div>
+        </a>
+    </div>
+    <div class="containeur1 d-flex">
+        <a href="dakhla.html" id="a">
+            <div id="div"><img src="images\dakhla.png" alt="maca" id="ph"
+                    loading="lazy">
+                <p id="para">Dakhla</p> <img src="images\rating (1).png"
+                    loading="lazy" id="reating4" alt="reating">
+                <a href="dakhla.html"><img src="images\right.png" alt="right"
+                        id="right4" loading="lazy"></a>
+            </div>
+        </a>
+        <a href="greese.html" id="a">
+            <div id="div"><img src="images\greece.png" loading="lazy"
+                    alt="images\doha" id="ph">
+                <p id="para">Greece</p> <img src="images\rating (1).png"
+                    loading="lazy" id="reating5" alt="reating">
+                <a href="greese.html"><img src="images\right.png" alt="right"
+                        id="right4" loading="lazy"></a>
+            </div>
+        </a>
+        <a href="istanbul.html" id="a">
+            <div id="div"><img src="images\istanbul.png" alt="dubai" id="ph"
+                    loading="lazy">
+                <p id="para">Istanbul</p> <img src="images\rating (1).png"
+                    loading="lazy" id="reating5" alt="reating">
+                <a href="istanbul.html"><img src="images\right.png" alt="right"
+                        id="right4" loading="lazy"></a>
+            </div>
+        </a>
+    </div>
+
+    <a href="more.html"><button id="see">See more</button></a>
+    <h3 class="h3">Treat yourself: leisure is a luxury that is shared with a smile!</h3>
+    <div class="conf d-flex mt-5 col-12">
+        <div id="vol"><img src="images\vol.png" alt="...." id="im"
+                loading="lazy">
+            <p>
+            <h4>Theft </h4><br>
+            Book your flight safely</p>
+        </div>
+        <div id="vol">
+            <img src="images\hotels.png" alt="...." id="im" loading="lazy">
+            <p>
+            <h4>Hotel </h4><br>
+            Book your hotels in dollar</p>
+        </div>
+        <div id="vol"><img src="images\voyages.png" alt="...." id="im"
+                loading="lazy">
+            <p>
+            <h4>Journey </h4><br>
+            Travels around the world</p>
+        </div>
+        <div id="vol"><img src="images\paquetes.png" alt="...." id="im"
+                loading="lazy">
+            <p>
+            <h4>Package</h4> <br>
+            All Inclusive, Hotel étoiles</p>
+        </div>
+        <div id="vol"><img src="images\dest.png" alt="...." id="im"
+                loading="lazy">
+            <p>
+            <h4>Destination</h4> <br>
+            Plus de 60 pays</p>
+        </div>
+
+        <div id="vol"><img src="images\croisieres.png" alt="...." id="im"
+                loading="lazy">
+            <p>
+            <h4>Cruise </h4><br>
+            Innovative cruises with new itineraries.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="pfo d-flex">
+            <a href="Sign-up.html">
+                <p class="pf">WHO ARE WE? <br>
+                    JOIN!</p>
+            </a>
+            <p class="pf">MY ACCOUNTTERMS <br> AND CONDITIONS OF SALE
+            </p>
+            <p class="pf">PROFESSIONAL <br> DMC (INCOMING)
+            </p>
+            <a href="Contact.html" id="link">
+                <p class="pffff">CONTACT US <br>
+                    LOCATE US</p>
+            </a>
+        </div>
+        <div class="cont2">
+            <a href="https://twitter.com/GazaTravel">
+                <img src="images\twitter.png" alt="..." id="social"
+                    loading="lazy">
+            </a>
+            <a href="https://youtube.com/GazaTravel">
+                <img src="images\youtube (1).png" alt="..." id="social"
+                    loading="lazy">
+            </a>
+            <a href="https://facebook.com/GazaTravel">
+                <img src="images\facebook (1).png" alt="..." id="social"
+                    loading="lazy">
+            </a>
+            <a href="https://instagram.com/GazaTravel">
+                <img src="images\instagram.png" alt="..." id="social"
+                    loading="lazy">
+            </a>
+            <a href="https://tiktok.com/GAZA-TRAVEL">
+                <img src="images\tik-tok.png" alt="..." id="social"
+                    loading="lazy">
+            </a>
+        </div>
+        <p class="a">
+            <img src="images\location.png" alt="..." loading="lazy"
+                id="adte">AddressN° 2 , Corner Rue molay abd lah, Meknes - Morocco<br>
+
+            <img src="images\telephone-handle-silhouette.png" alt="..."
+                id="adte">Fixe & Whatsapp : +212 6 18 38 23 85 <br>
+            <img src="images\mail.png" alt="..." loading="lazy"
+                id="adte">E-mail : GazaTravel@gmail.com
+        </p>
+        <p class="botoom">
+            © 2024 Gaza Travel Morocco.
+        </p>
+
+    </footer>
+</body>
+
+</html>
